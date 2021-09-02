@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+` import { yupResolver } from "@hookform/resolvers"; ` isn't working properly.
+
 TThe app component contains an example form built with the React Hook Form library that contains a single required checkbox.
 
 Form validation rules are defined with the Yup schema validation library and passed to the React Hook Form useForm() function, for more info on Yup see https://github.com/jquense/yup.
